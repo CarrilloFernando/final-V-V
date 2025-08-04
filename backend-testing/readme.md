@@ -36,10 +36,16 @@ bash
     git clone -b master https://github.com/CarrilloFernando/final-V-V.git
 
 ## Instala dependencias 
+## (ienes que estar en la carpeta "backend-testing" para que la dependicia se descargen ahí)
     
+    cd backend-testing
+    
+## luego descargar dependencias
+
     npm install
 
 ## Archivos importantes
+En la raiz del proyecto crear .env
 
 .env (este archivo no se sube al repositori remoto por tema de seguridad ya que ademas puede ser recuperado con npm install)
 
